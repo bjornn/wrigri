@@ -1,20 +1,21 @@
 # Write In A Grid
 
-Write in a grid is a method that several documents in a spreadsheet program and generate stand alone documents from this master document. 
+Write In A Grid is a method where several documents are written up simultaneously in a spreadsheet program. You can then use this program to generate stand-alone-documents from the master document. 
+
 The Write in a grid method can be productive when 
 
-    * You write many documents of similar type with a large degree of overlap and repetition (e.g. functional specifications, requirements, RFCs). 
-    * You are collecting data from many authors and want them to fill in a form with a lot of instructive text that shall not be present in the end product.
-    * You need to quality assess information from many sources by keeping them in one place.
-    * You need to maintain multiple instances of documents in different languages and want to be able to work on them side by side. 
+* You write many documents of similar type with a large degree of overlap and repetition (e.g. functional specifications, requirements, RFCs). 
+* You are collecting data from many authors and want them to fill in a form with a lot of instructive text that shall not be present in the end product.
+* You need to quality assess information from many sources by keeping them in one place.
+* You need to maintain multiple instances of documents in different languages and want to be able to work on them side by side. 
     
 The basis for Write In A Grid is 
  
  * Document section headers (keys) are stored in one column. 
  * Data for one document instance is then represented in another column (values). 
- * One column is reserved for output formatting instructions. 
+ * One additional column is reserved for output formatting instructions. 
 
-This software allows you to generate output from such a grid in either html- or markdown format.
+This software allows you to generate output from such a grid in either html-, ReStructured Text or Markdown format.
 
 ## Input
 
@@ -49,9 +50,11 @@ This software allows you to generate output from such a grid in either html- or 
 
 ## Configuration
 
-The application is configured with a configuration file. If no configuration file is provided on the command line, the default configuration (found in the file configuration.ini) is used.
+The master document layout is described in a configuration file. An example configuration file (configuration.ini) matching the example data (ExampleData.csv) is provided in this project.
 
 Different configuration files can be used to generate different output.
 
 ### Configuration parameters
+
+TBD
 
